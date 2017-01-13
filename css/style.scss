@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  font-family: arial, sans-serif;
+}
+
+h2 {
+  margin: auto;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.text-title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  padding: 12%;
+}
+
+.text-subtitle-work {
+  color: white;
+  width: 60%;
+  margin: auto;
+}
+
+.text-subtitle-tech {
+  text-align: center;
+}
+
+.text-subtitle-contact {
+  margin-left: 20px;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+table {
+  margin: auto;
+  width: 600px;
+  height: 300px;
+  text-align: center;
+}
+
+td {
+  border: 1px dashed white;
+}
+
+.bullet-contact {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.parallax-work {
+  background: url('https://scontent.flhr2-1.fna.fbcdn.net/v/t1.0-9/11951838_10204712835093323_9016186575097653050_n.jpg?oh=efcef8c6e51c4cb42cea53487a4dc013&oe=591FD056') repeat fixed 100%;
+  background-size: cover;
+}
+
+.parallax-inner {
+  height: 100vh;
+  /*padding-top: 15%;
+  padding-bottom: 15%;*/
+}
+
+.container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#findAWalk {
+  display: inline-block;
+  width: 70%;
+  background-color: yellow;
+  color: #777879;
+  padding: 20px;
+}
+
+#go {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  width: 70%;
+  background-color: yellow;
+  color: #777879;
+  padding: 20px;
+}
+
+#londonsBurning {
+  display: inline-block;
+  width: 70%;
+  background-color: yellow;
+  color: #777879;
+  padding: 20px;
+}
+
+#pacman {
+  display: inline-block;
+  position: absolute;
+  width: 70%;
+  background-color: yellow;
+  color: #777879;
+  padding: 20px;
+}
+
+.project-links-right {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  display: inline-block;
+  background-color: grey;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.project-links-left {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  background-color: grey;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.launch-project, .launch-github {
+  border: 1px solid black;
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  margin: 20px;
+  border-radius: 20px;
+  display: block;
+  padding-top: 15px;
+}
