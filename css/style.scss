@@ -23,13 +23,11 @@ p {
 
 .text-title {
   text-align: center;
-  color: white;
   font-size: 40px;
   padding: 12%;
 }
 
 .text-subtitle-work {
-  color: white;
   width: 60%;
   margin: auto;
 }
@@ -39,18 +37,21 @@ p {
 }
 
 .text-subtitle-contact {
-  margin-left: 20px;
+  width: 60%;
+  margin: auto;
 }
 
 button {
-  width: 140px;
+  width: 142px;
   height: 40px;
   margin: 20px;
   border-radius: 20px;
   border: 0px;
   background-color: white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 13px;
+  font-family: 'Droid Sans Mono', monospace;
+  font-weight: bold;
 }
 
 table {
@@ -84,7 +85,7 @@ td {
   // overflow-x: auto;
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 280px;
   background-color: rgba(0,0,0,0.3)
 }
 
@@ -139,9 +140,17 @@ td {
   padding-left: 60px;
 }
 
+.links {
+  margin-top: 90px;
+}
+
+#pacman-links {
+  margin-top: 60px;
+}
+
 .launch-project, .launch-github {
   border: 1px solid white;
-  background-color: white;
+  background-color: rgba(255,255,255, 0.5);
   text-align: center;
   width: 200px;
   height: 50px;
