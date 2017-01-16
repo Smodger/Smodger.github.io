@@ -52,6 +52,7 @@ button {
   font-size: 13px;
   font-family: 'Droid Sans Mono', monospace;
   font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6)
 }
 
 button:hover {
@@ -68,6 +69,7 @@ table {
 
 td {
   border: 1px dashed white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 .bullet-contact {
@@ -161,6 +163,7 @@ td {
   border-radius: 20px;
   display: block;
   padding-top: 12px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6)
 }
 
 .launch-project:hover {
